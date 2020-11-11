@@ -1,0 +1,37 @@
+body {
+    background-color: aquamarine;
+
+}
+
+img {
+    border-radius: 20px;
+}
+
+.gallery, .home, .about, aside {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin-top: 5vh;
+}
+
+.home, .about {
+    padding-top: 5vh;;
+}
+.gallery p, .home p, .about p {
+    margin: 0vh 20%;
+}
+
+nav a{
+    color: white;
+}
+
+/* aside {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+} */
+/* nav a:active {
+    color: orange;
+} */
